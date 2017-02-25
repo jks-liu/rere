@@ -14,7 +14,7 @@ with open(path.join(MODULE_PATH, 'README.txt')) as f:
 
 setup(
     name='rer',
-    version='0.0.1',
+    version='1.0.1',
     description='Regular expression in regular expression',
     long_description=LONG_DESCRIPTION,
 
@@ -30,7 +30,7 @@ setup(
         #   3 - Alpha
         #   4 - Beta
         #   5 - Production/Stable
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
