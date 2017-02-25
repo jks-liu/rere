@@ -12,10 +12,10 @@ def rer(re_string, re_group=0,
     """rer atom
 
     This function use regular expression string `re_string' and the group
-    `regroup' (default 0) to match the `data'. This will evaluates a list,
+    `re_group' (default 0) to match the `data'. This will evaluates a list,
     a function `item_continuation' will apply to every item of the list,
     a function `list_continuation' will apply to the list. These 2 functions
-    do nothing default.
+    do nothing by default.
 
     Return value is a function which can be apply to the `data'.
     Return value can also be used as a `item_continuation' or
