@@ -14,7 +14,7 @@ with open(path.join(MODULE_PATH, 'README.txt')) as f:
 
 setup(
     name='rer',
-    version='1.0.1',
+    version='1.1.2',
     description='Regular expression in regular expression',
     long_description=LONG_DESCRIPTION,
 
